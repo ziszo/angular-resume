@@ -1,0 +1,311 @@
+			body {
+	    		color: white;
+	    		/* IE Scrollbar */
+				scrollbar-base-color: #00bcd4;
+				scrollbar-3dlight-color: #00bcd4;
+				scrollbar-highlight-color: #00bcd4;
+				scrollbar-track-color: rgba(68, 53, 62, 0);
+				scrollbar-arrow-color: black;
+				scrollbar-shadow-color: #C0C0C0;
+				scrollbar-dark-shadow-color: #C0C0C0;
+	    	}
+
+	    	::-webkit-scrollbar {
+	    		width: 10px;
+	    		height: 10px;
+	    	}
+
+	    	::-webkit-scrollbar-thumb {
+	    		width: 10px;
+	    		background-color: rgba(0,188,212,0.5);
+	    		border-radius: 10px;
+	    	}
+
+	    	::-webkit-scrollbar-thumb:hover {
+	    		background-color: rgba(0,188,212,0.8);
+	    	}
+
+	    	.shadowT {
+	    		text-shadow: 0px 0px 10px black;
+	    	}
+	    	
+	    	.shadowE {
+	    		box-shadow: 0px 0px 20px black;
+	    	}
+
+	    	.centerT {
+	    		text-align: center;
+	    	}
+
+	    	.leftT {
+	    		text-align: left;
+	    	}
+
+	    	.navigation {
+	    		top: 0;
+	    		bottom: 0;
+	    		left: 0;
+	    		right: 0;
+	    		margin: auto;
+	    	}
+
+	    	.height100 {
+	    		height: 100%;
+	    	}
+
+	    	.fullH {
+	    		height: 100%;
+	    		width: 100%;
+	    	}
+
+	    	.height33 {
+	    		height: 33%;
+	    	}
+
+	    	.height120 {
+	    		height: 120px;
+	    	}
+
+	    	.width70 {
+	    		width: 70px;
+	    	}
+
+	    	.transition {
+	    		-webkit-transition: all 2s ease;
+	    		-moz-transition: all 2s ease;
+	    		-o-transition: all 2s ease;
+	    		transition: all 2s ease;
+	    		overflow: hidden;
+	    	}
+
+	    	.transition.ng-hide {
+	    		height: 0%;
+	    	}
+
+	    	.transition-fade {
+	    		opacity: 1;
+	    		-webkit-transition: all 2s ease;
+	    		-moz-transition: all 2s ease;
+	    		-o-transition: all 2s ease;
+	    		transition: all 2s ease;
+	    	}
+
+	    	.transition-fade.ng-hide {
+	    		opacity: 0;
+	    	}
+
+	    	.transition-rotate3D {
+	    		opacity: 1;
+	    		transform: rotateX(0);
+	    		-webkit-transition: all 2s ease;
+	    		-moz-transition: all 2s ease;
+	    		-o-transition: all 2s ease;
+	    		transition: all 2s ease;
+	    	}
+
+	    	.transition-rotate3D.ng-hide {
+	    		opacity: 0;
+	    		transform: rotateX(360);
+	    	}
+
+	    	.fixed {
+	    		position: fixed;
+	    	}
+
+	    	.absolute {
+	    		position: absolute;
+	    	}
+
+	    	.bgDefault {
+	    		background-color: #44353E;
+	    	}
+
+	    	.bgDefaultO {
+	    		background-color: rgba(68, 53, 62, 0.9);
+	    	}
+
+	    	.mdl-textfield__label {
+	    		//color: rgb(255,87,34);
+	    		color: rgba(0,188,212,.5);	
+	    		font-size: 20px;    		
+	    	}
+
+	    	.mdl-textfield__input {
+	    		//border-bottom: 1px solid rgb(255,87,34);
+	    		border-bottom: 1px solid rgba(0,188,212,0.5);
+	    		font-size: 20px;
+	    	}
+
+	    	.road2YourCompany {
+	    		background-image: url("../images/roadToYourCompany.jpg");
+	    		background-position: center top;
+	    		background-repeat: no-repeat;
+	    		background-size: cover;
+	    		background-attachment: fixed;
+	    	}
+
+	    	.glow {
+	    		animation: glowText 3s infinite ease;
+	    	}
+
+	    	@-webkit-keyframes glowText {
+	    		0%, 100% {
+	    			text-shadow: 0px 0px 20px black;
+	    		}
+	    		50% {
+	    			text-shadow: 0px 0px 20px #00bcd4;
+	    		};
+	    	}
+
+	    	@-moz-keyframes glowText {
+	    		0%, 100% {
+	    			text-shadow: 0px 0px 20px black;
+	    		}
+	    		50% {
+	    			text-shadow: 0px 0px 20px #00bcd4;
+	    		};
+	    	}
+
+	    	@-o-keyframes glowText {
+	    		0%, 100% {
+	    			text-shadow: 0px 0px 20px black;
+	    		}
+	    		50% {
+	    			text-shadow: 0px 0px 20px #00bcd4;
+	    		};
+	    	}
+
+	    	@keyframes glowText {
+	    		0%, 100% {
+	    			text-shadow: 0px 0px 20px black;
+	    		}
+	    		50% {
+	    			text-shadow: 0px 0px 20px #00bcd4;
+	    		};
+	    	}
+
+	    	.avatar {
+	    		background-image: url('../images/1x1.png');
+	    		background-position: static;
+	    		background-repeat: no-repeat;
+	    		background-size: 100%;
+	    		height: 150px;
+	    		width: 150px;
+	    		border-radius: 100%;
+	    		overflow: hidden;
+	    		-webkit-transition: all 2s ease;
+	    		-moz-transition: all 2s ease;
+	    		-o-transition: all 2s ease;
+	    		transition: all 2s ease;
+	    	}
+
+	    	.avatar.attractE {
+	    		animation: glowE 3s infinite ease;
+	    		cursor: pointer;
+	    	}
+
+	    	@-webkit-keyframes glowE {
+	    		0%, 100% {
+	    			box-shadow: 0px 0px 20px black;
+	    		}
+	    		50% {
+	    			box-shadow: 0px 0px 20px #00bcd4;
+	    		}
+	    	}
+
+	    	@-moz-keyframes glowE {
+	    		0%, 100% {
+	    			box-shadow: 0px 0px 20px black;
+	    		}
+	    		50% {
+	    			box-shadow: 0px 0px 20px #00bcd4;
+	    		}
+	    	}
+
+	    	@-o-keyframes glowE {
+	    		0%, 100% {
+	    			box-shadow: 0px 0px 20px black;
+	    		}
+	    		50% {
+	    			box-shadow: 0px 0px 20px #00bcd4;
+	    		}
+	    	}
+
+	    	@keyframes glowE {
+	    		0%, 100% {
+	    			box-shadow: 0px 0px 20px black;
+	    		}
+	    		50% {
+	    			box-shadow: 0px 0px 20px #00bcd4;
+	    		}
+	    	}
+
+	    	.avatar.small {
+	    		height: 70px;
+	    		width: 70px;
+	    		cursor: arrow;
+	    		background-color: #44353E;
+	    		background-image: none;
+	    	}
+
+	    	.padding {
+	    		padding: 40px;
+	    	}
+
+	    	.up {
+	    		width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 0 15px 30px 15px;
+				border-color: transparent transparent rgba(0,188,212,.5) transparent;
+	    		-webkit-transition: all 0.5s ease;
+	    		-moz-transition: all 0.5s ease;
+	    		-o-transition: all 0.5s ease;
+	    		transition: all 0.5s ease;
+	    	}
+
+	    	.up:hover {
+				border-color: transparent transparent rgba(0,188,212,.8) transparent;
+				cursor: pointer;
+	    	}
+
+	    	.down {
+	    		width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 30px 15px 0 15px;
+				border-color: rgba(0,188,212,.5) transparent transparent transparent;
+	    		-webkit-transition: all 0.5s ease;
+	    		-moz-transition: all 0.5s ease;
+	    		-o-transition: all 0.5s ease;
+	    		transition: all 0.5s ease;
+	    	}
+
+	    	.down:hover {
+				border-color: rgba(0,188,212,.8) transparent transparent transparent;
+				cursor: pointer;
+	    	}
+
+	    	.logo {
+	    		margin-top: 2px;
+	    	}
+
+	    	.material-icons {
+	    		vertical-align: bottom;
+	    	}
+
+	    	.link {
+	    		text-decoration: none;
+	    	}
+
+	    	.mdl-tooltip {
+	    		vertical-align: center;
+	    	}
+
+	    	.scrollable {
+	    		overflow-y: scroll;
+	    	}
+
+	    	.up.invisible, .down.invisible {
+	    		opacity: 0;
+	    	}

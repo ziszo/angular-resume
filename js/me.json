@@ -1,0 +1,123 @@
+			{
+    			name: "Niño Angelo Orlanes Lapura",
+    			degree: "BS Information Technology (Multimedia)",
+    			university: "MSU-IIT",
+    			graduatedOn: "Apr 2014",
+    			birthday: "January 14, 1993",
+    			age: "22",
+    			email: "ziszo.angelo@gmail.com",
+    			mobile: "+63 929 7856 324 / +63 906 2093 283",
+    			cv: "//to-be-set.com",
+    			linkedin: "http://linkedin.com/in/ninoangelo",
+    			codeschool: "http://codeschool.com/users/",
+    			skills: [
+    				{
+    					type: "Front End",
+    					specifics: [
+			    			{
+				    			name: "Angular.js",
+				    			stars: 2
+				    		},
+				    		{
+				    			name: "CSS3",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "JavaScript",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "HTML5",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "Material Design Lite",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "Twitter BootStrap",
+				    			stars: 2
+				    		},
+				    		{
+				    			name: "JSON",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "JQuery",
+				    			stars: 3
+				    		}
+    					]
+    				},
+    				{
+    					type: "Back End",
+    					specifics: [
+    						{
+				    			name: "PHP",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "MSSQL",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "MySQL",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "PostgreSQL",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "JSP",
+				    			stars: 1
+				    		}
+    					]
+    				},
+    				{
+    					type: "Multimedia",
+    					specifics: [
+    						{
+				    			name: "GIMP",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "Flash",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "Photoshop",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "Premiere",
+				    			stars: 2
+				    		}
+    					]
+    				},
+    				{
+    					type: "Others",
+    					specifics: [
+    						{
+				    			name: "C and C++",
+				    			stars: 3
+				    		},
+				    		{
+				    			name: "Delphi 6",
+				    			stars: 2
+				    		},
+				    		{
+				    			name: "Erlang",
+				    			stars: 2
+				    		},
+				    		{
+				    			name: "Python",
+				    			stars: 1
+				    		},
+				    		{
+				    			name: "VBa (for Excel)",
+				    			stars: 2
+				    		}
+    					]
+    				}
+    			]
+	    	}
