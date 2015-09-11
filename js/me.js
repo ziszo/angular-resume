@@ -12,9 +12,9 @@
 	    			mobile: "+63 929 785 6324 / +63 906 209 3283"
 	    		},
 	    		lnks: {
-	    			cv: "/cv/Nino Angelo Orlanes Lapura.doc",
-	    			linkedin: "linkedin.com/in/ziszo",
-	    			codeschool: "codeschool.com/users/ziszo"
+	    			cv: "https://drive.google.com/file/d/0B5vhPcJESgs4WC1pT2NpdnRWclU/view?usp=sharing",
+	    			linkedin: "http://linkedin.com/in/ziszo",
+	    			codeschool: "http://codeschool.com/users/ziszo"
 	    		},
 	    		experiences: [
 	    			{
