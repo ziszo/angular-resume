@@ -12,7 +12,7 @@
 	    			mobile: "+63 929 785 6324 / +63 906 209 3283"
 	    		},
 	    		lnks: {
-	    			cv: "https://drive.google.com/file/d/0B5vhPcJESgs4WC1pT2NpdnRWclU/view?usp=sharing",
+	    			cv: "https://drive.google.com/file/d/0B5vhPcJESgs4bjNHT0JxU0tHemM/view?usp=sharing",
 	    			linkedin: "http://linkedin.com/in/ziszo",
 	    			codeschool: "http://codeschool.com/users/ziszo"
 	    		},
