@@ -36,7 +36,7 @@
     					specifics: [
 			    			{
 			    				id: "angular",
-				    			name: "Angular.js",
+				    			name: "AngularJS",
 				    			stars: 2
 				    		},
 				    		{
@@ -175,7 +175,7 @@
     					company: "Iligan Light & Power, Inc.",
     					duration: "Nov 2014 - Feb 2015",
     					roles: "Designer and Programmer",
-    					skills: ["Delphi 6", "MSSQL"]
+    					skills: ["Delphi 6", "MSSQL", "MySQL"]
     				},
     				{
     					name: "Corporate Site",
@@ -323,7 +323,7 @@
     				}
     			],
     			madeWith: [
-    				"Angular.js",
+    				"AngularJS",
     				"CSS3",
     				"HTML5",
     				"JavaScript",
