@@ -306,7 +306,7 @@
     			],
     			references: [
     				{
-    					name: "Joan Jossette P. Bruna",
+    					name: "Mrs. Joan Jossette P. Bruna",
     					company: "Iligan Light & Power, Inc.",
     					position: "ICT Supervisor",
     					email: "jpb@iliganlight.com",
@@ -314,7 +314,7 @@
     					logo: "ilpi"
     				},
     				{
-    					name: "Gay L. Molina",
+    					name: "Mrs. Gay L. Molina",
     					company: "Iligan Light & Power, Inc.",
     					position: "HR Supervisor",
     					email: "glm@iliganlight.com",
