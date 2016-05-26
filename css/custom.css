@@ -71,10 +71,10 @@
 	    	}
 
 	    	.transition {
-	    		-webkit-transition: all 2s ease;
-	    		-moz-transition: all 2s ease;
-	    		-o-transition: all 2s ease;
-	    		transition: all 2s ease;
+	    		-webkit-transition: all 0.5s ease;
+	    		-moz-transition: all 0.5s ease;
+	    		-o-transition: all 0.5s ease;
+	    		transition: all 0.5s ease;
 	    		overflow: hidden;
 	    	}
 
@@ -84,10 +84,10 @@
 
 	    	.transition-fade {
 	    		opacity: 1;
-	    		-webkit-transition: all 2s ease;
-	    		-moz-transition: all 2s ease;
-	    		-o-transition: all 2s ease;
-	    		transition: all 2s ease;
+	    		-webkit-transition: all 0.5s ease;
+	    		-moz-transition: all 0.5s ease;
+	    		-o-transition: all 0.5s ease;
+	    		transition: all 0.5s ease;
 	    	}
 
 	    	.transition-fade.ng-hide {
@@ -97,10 +97,10 @@
 	    	.transition-rotate3D {
 	    		opacity: 1;
 	    		transform: rotateX(0);
-	    		-webkit-transition: all 2s ease;
-	    		-moz-transition: all 2s ease;
-	    		-o-transition: all 2s ease;
-	    		transition: all 2s ease;
+	    		-webkit-transition: all 0.5s ease;
+	    		-moz-transition: all 0.5s ease;
+	    		-o-transition: all 0.5s ease;
+	    		transition: all 0.5s ease;
 	    	}
 
 	    	.transition-rotate3D.ng-hide {
@@ -193,10 +193,10 @@
 	    		width: 150px;
 	    		border-radius: 100%;
 	    		overflow: hidden;
-	    		-webkit-transition: all 2s ease;
-	    		-moz-transition: all 2s ease;
-	    		-o-transition: all 2s ease;
-	    		transition: all 2s ease;
+	    		-webkit-transition: all 0.5s ease;
+	    		-moz-transition: all 0.5s ease;
+	    		-o-transition: all 0.5s ease;
+	    		transition: all 0.5s ease;
 	    	}
 
 	    	.avatar.attractE {
