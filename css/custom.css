@@ -307,5 +307,6 @@
 	    	}
 
 	    	.up.invisible, .down.invisible {
-	    		opacity: 0;
+				border-color: transparent transparent transparent transparent;
+	    		cursor: default;
 	    	}

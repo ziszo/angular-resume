@@ -2,7 +2,7 @@
 	    	var ender;
 	    	var interval = 0;
 	    	var firstPart = 3;
-	    	var lastPart = 8;//please set
+	    	var lastPart = 8;
 
 	    	app.controller("resumeController", function(){
 	    		this.firstName = me.basicInfo.firstName;
@@ -12,15 +12,38 @@
 	    		this.company = "";
 	    		this.avatarClicked = false;
 	    		this.part = 1;
+		    	this.onFirstPart = false;
+		    	this.onLastPart = false;
 	    		this.prevPart = function(thisCtrl){
 	    			thisCtrl.part--;
+	    			this.onFirstPart = false;
+	    			this.onLastPart = false;
 	    			if (thisCtrl.part < firstPart)
 	    				thisCtrl.part = firstPart;
+	    			if (thisCtrl.part == firstPart)
+	    				this.onFirstPart = true;
+	    			if (thisCtrl.part == lastPart)
+	    				this.onLastPart = true;
 	    		};
 	    		this.nextPart = function(thisCtrl){
 	    			thisCtrl.part++;
+	    			this.onFirstPart = false;
+	    			this.onLastPart = false;
 	    			if (thisCtrl.part > lastPart)
 	    				thisCtrl.part = lastPart;
+	    			if (thisCtrl.part == firstPart)
+	    				this.onFirstPart = true;
+	    			if (thisCtrl.part == lastPart)
+	    				this.onLastPart = true;
+	    		}
+	    		this.goToPart = function(thisCtrl, thisPart){
+	    			thisCtrl.part = thisPart;
+	    			this.onFirstPart = false;
+	    			this.onLastPart = false;
+	    			if (thisCtrl.part == firstPart)
+	    				this.onFirstPart = true;
+	    			if (thisCtrl.part == lastPart)
+	    				this.onLastPart = true;
 	    		}
 	    	});
 

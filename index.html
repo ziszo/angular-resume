@@ -48,7 +48,7 @@
 				</div>
 			</div>
 			<div hide-sm ng-show="resume.avatarClicked" class="height100 width70 navigation transition-fade fixed" layout="column" layout-align="center center">
-				<div class="up" ng-class="{invisible: resume.part==firstPart}" ng-click="resume.prevPart(resume)">
+				<div class="up" ng-class="{invisible: resume.onFirstPart}" ng-click="resume.prevPart(resume)">
 				</div>
 				<div class="height120" layout="column" layout-align="center center">
 					<!-- Right aligned menu on top of button  -->
@@ -60,14 +60,14 @@
 					<ul class="mdl-menu mdl-menu--top-right mdl-js-menu mdl-js-ripple-effect"
 					    for="demo-menu-top-right">
 					  
-					  <li class="mdl-menu__item" ng-click="resume.part=3">Basic Info</li>
-					  <li class="mdl-menu__item" ng-click="resume.part=4">Skill Set</li>
-					  <li class="mdl-menu__item" ng-click="resume.part=5">Projects</li>
-					  <li class="mdl-menu__item" ng-click="resume.part=6">Experiences</li>
-					  <li class="mdl-menu__item" ng-click="resume.part=7">References</li>
+					  <li class="mdl-menu__item" ng-click="resume.goToPart(resume, 3)">Basic Info</li>
+					  <li class="mdl-menu__item" ng-click="resume.goToPart(resume, 4)">Skill Set</li>
+					  <li class="mdl-menu__item" ng-click="resume.goToPart(resume, 5)">Projects</li>
+					  <li class="mdl-menu__item" ng-click="resume.goToPart(resume, 6)">Experiences</li>
+					  <li class="mdl-menu__item" ng-click="resume.goToPart(resume, 7)">References</li>
 					</ul>
 				</div>
-				<div class="down" ng-class="{invisible: resume.part==lastPart}" ng-click="resume.nextPart(resume)">
+				<div class="down" ng-class="{invisible: resume.onLastPart}" ng-click="resume.nextPart(resume)">
 				</div>
 			</div>
 			<div hide-sm ng-show="(resume.part == 2) && !resume.avatarClicked" class="fullH transition">
