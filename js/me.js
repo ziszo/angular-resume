@@ -26,7 +26,7 @@
 	    			{
 	    				position: "On-the-Job Trainee",
 	    				company: "Iligan Light & Power, Inc.",
-	    				duration: "Nov 2013 - March 2014",
+	    				duration: "Nov 2013 - Mar 2014",
 	    				logo: "ilpi.png"
 	    			}
 	    		],
